@@ -1,0 +1,57 @@
+(1) RFmx에서 제공하는 항목
+ACP *
+CCDF *
+CHP *
+FCnt
+Harm -> 5665, 5668만 됨
+OBW *
+SEM
+Spectrum *
+Spur -> 5665, 5668만 됨
+TXP *
+AMPM
+DPD
+IQ * 
+
+(2) Key Power Amplifier Specifications
+http://electronicdesign.com/communications/key-power-amplifier-specifications
+ACPR
+EVM (Constallation도 같이 보여주면 좋을 듯)
+IP3
+P1dB
+PAE
+PAPR
+
+(3) 필요할 듯??
+Harmonics *
+SFDR *
+TOI (IP3)랑 같이 봐야지 *
+IMD *
+Noise Figure ?? Noise Floor ??
+Gain
+Gain Flatness
+Psat (P1dB랑 같이 취급되며 PA가 Saturation 되는 포인트)
+VI curve ??
+
+=> 각 항목별로 어떻게 측정하고 디스플레이할 것인지 먼저 구현
+=> 그런 다음 각 항목별로 Test Time 계산하고
+=> Frequency&Power List mode를 쓸건지, 파워서보잉은 할지 말지, RFmx Composite Mesurement와 같은 테스트타임 Optimization은 어떻게 할지 결정
+
+
+===== 측정 항목 정리 (Pin Sweep?) =====
+ACP -> ACPR
+CCDF
+CHP -> Gain // PAE(SMU 측정결과 이용) // Pin Sweep을 하면 P1dB, Psat, Gain Flatness(이건 어떻게 측정하는건지 좀 더 봐야할 듯)
+FCnt
+OBW
+SEM
+TXP
+AMPM
+DPD
+PAPR (IQ에서만 얻을 수 있는 거였나!?)
+
+
+===== Standard( Pin Sweep ?? )가 아닌 별도(tone)의 모드로 동작해야 하는 것들 =====
+IMD(IP3) -> TOI 계산
+SFDR (single tone)
+Noise Figure

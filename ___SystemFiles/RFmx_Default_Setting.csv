@@ -1,0 +1,8 @@
+RFmx_Init,0
+Config_Trigger_Atten,0
+Config_Parameters,1
+Config_RFmx_Setting,2
+Wait_RFSG,0
+RFmx_Initiate,2
+RFmx_Fetch,3
+Send_to_Cmd,0

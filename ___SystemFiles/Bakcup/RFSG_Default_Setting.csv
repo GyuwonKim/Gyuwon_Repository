@@ -1,0 +1,7 @@
+RFSG_Init,0
+Config_Freq_Power_ExtGain,4
+Config_ScriptWfm,0
+Config_RFSG_Mode_Script,0
+RFSG_Write_Script,4
+RFSG_Initiate,0
+Send_to_RFSA,0

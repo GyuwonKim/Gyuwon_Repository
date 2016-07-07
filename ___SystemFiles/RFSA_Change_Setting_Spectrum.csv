@@ -1,0 +1,4 @@
+Config_RFSA_AcqType_Vertical,3
+Config_RFSA_Spectrum_Acq,2
+Wait_RFSG,0
+RFSA_Acq_Read_Spectrum,0

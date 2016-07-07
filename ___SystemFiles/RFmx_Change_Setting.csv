@@ -1,0 +1,5 @@
+Config_RFSA_AcqType_Vertical,3
+Config_RFSA_IQ_Acq,1
+Wait_RFSG,0
+RFSA_Initiate,0
+RFSA_Fetch_IQ,0

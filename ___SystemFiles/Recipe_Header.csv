@@ -1,0 +1,31 @@
+Common_Paramters,0
+Center_Frequency(Hz),1
+Standard,1
+Operation_Mode,1
+Switch_Setting,0
+Switch_In,1
+Switch_Out,1
+RFSG_Setting,0
+RFSG_ExtGain(dB),1
+RFSG_Pin_Start(dBm),1
+RFSG_Pin_End(dBm),1
+RFSG_Pin_Steps,1
+RFSA_Setting,0
+RFSA_Bandwidth(Hz),1
+RFSA_RBW(Hz),1
+RFSA_ExtAtten(dB),1
+DC_Setting,0
+DC1_Start(V),1
+DC1_End(V),1
+DC1_Steps,1
+DC2_Start(V),1
+DC2_End(V),1
+DC2_Steps,1
+ACP_Setting,0
+Ref_Ch_Bandwidth(Hz),1
+Offset_Freq(Hz) 0,1
+Offset_Freq(Hz) 1,1
+Offset_Freq(Hz) 2,1
+Int_Bandwidth(Hz) 0,1
+Int_Bandwidth(Hz) 1,1
+Int_Bandwidth(Hz) 2,1
